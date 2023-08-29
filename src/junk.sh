@@ -6,7 +6,7 @@ readonly JUNKDIR="HOME/.junk"
 NUMARGS=$#
 
 file="/mnt/disks/students231/ad3916/cs3157/hw1/src/junk.sh"
-filename=$(basename "$file:)
+filename=$(basename "$file")
 
 if [ -z $1 ]
 then
